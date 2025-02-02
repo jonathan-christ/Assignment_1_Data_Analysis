@@ -4,6 +4,7 @@ MONTH_INTERVAL = 3
 EVAL_YEARS = 4
 EVAL_MONTHS = EVAL_YEARS * 12
 
+SYMPTOMS = ["pain", "urgency", "frequency"]
 # "Pain and urgency are subjective appraisals on a scale from 0 to 9" (0 = none, 9 = worst)
 PAIN_URG_SCALE = {min: 0, max: 9}
 # From the graphs, ranges from (-15 to 15)
@@ -11,11 +12,12 @@ FREQ_SCALE = {min: -15, max: 15}
 
 # Amount of patients in the study
 PATIENT_COUNT = 400
+PATIENT_GROUPS = ["treated", "untreated"]
 # Patient treated and untreated ratio
 TREATED_RATIO = 0.47
 
 # Evaluation time points
-TIME_POINTS = ["baseline", "3mos", "6mos"]
+TIME_POINTS = ["baseline", "at treatment", "3mos", "6mos"]
 
 PLOTS = [
     "Baseline",
