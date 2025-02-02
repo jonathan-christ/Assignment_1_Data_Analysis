@@ -6,9 +6,9 @@ EVAL_MONTHS = EVAL_YEARS * 12
 
 SYMPTOMS = ["pain", "urgency", "frequency"]
 # "Pain and urgency are subjective appraisals on a scale from 0 to 9" (0 = none, 9 = worst)
-PAIN_URG_SCALE = {min: 0, max: 9}
+PAIN_URG_SCALE = {"min": 0, "max": 9}
 # From the graphs, ranges from (-15 to 15)
-FREQ_SCALE = {min: -15, max: 15}
+FREQ_SCALE = {"min": -15, "max": 15}
 
 # Amount of patients in the study
 PATIENT_COUNT = 400
