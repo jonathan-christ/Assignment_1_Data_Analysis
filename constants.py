@@ -11,10 +11,10 @@ PAIN_URG_SCALE = {"min": 0, "max": 9}
 FREQ_SCALE = {"min": -15, "max": 15}
 
 # Amount of patients in the study
-PATIENT_COUNT = 400
+PATIENT_COUNT = 20
 PATIENT_GROUPS = ["treated", "untreated"]
 # Patient treated and untreated ratio
-TREATED_RATIO = 0.47
+TREATED_RATIO = 0.5
 
 # Evaluation time points
 TIME_POINTS = ["baseline", "at treatment", "3mos", "6mos"]
@@ -25,6 +25,7 @@ PLOTS = [
     "3 Months after Treatment",
     "6 Months after Treatment",
     "Difference (3 mos posttreatment)",
-    "Differnece (6 mos posttreatment)",
+    "Difference (6 mos posttreatment)",
 ]
+
 PLOT_LABELS = ["Never/Later Treated", "Treated"]
