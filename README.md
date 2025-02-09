@@ -7,4 +7,5 @@ through replicating the methodologies used by the authors.
   https://doi.org/10.1198/016214501753208573
 
 ## Created By:
-  Matthew Cedric D. Calaycay
+  Matthew Cedric D. Calaycay\
+  Estelito Y. Buenavista II
